@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_sections",
+  "info": {
+    "singularName": "hero-section",
+    "pluralName": "hero-sections",
+    "displayName": "Hero Section",
+    "description": "Landing page hero section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "default": "Revolutionize your e-commerce management"
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true,
+      "default": "Powerful analytics, streamlined operations, and complete control - all in one revolutionary dashboard for your online store."
+    },
+    "ctaText": {
+      "type": "string",
+      "required": true,
+      "default": "Join the waitlist"
+    },
+    "ctaLink": {
+      "type": "string",
+      "required": true,
+      "default": "/waitlist"
+    },
+    "dashboardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_plans",
+  "info": {
+    "singularName": "pricing-plan",
+    "pluralName": "pricing-plans",
+    "displayName": "Pricing Plan",
+    "description": "Manage pricing plans and their features"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    },
+    "currency": {
+      "type": "string",
+      "required": true,
+      "default": "USD"
+    },
+    "period": {
+      "type": "enumeration",
+      "enum": [
+        "monthly",
+        "yearly"
+      ],
+      "required": true
+    },
+    "features": {
+      "type": "json",
+      "required": true
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "min": 0
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
