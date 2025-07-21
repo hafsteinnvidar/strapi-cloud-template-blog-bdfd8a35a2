@@ -12,17 +12,55 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "featuresTitle": {
+      "type": "text",
+      "required": false,
+      "default": "Everything you need to<br />grow your store"
+    },
+    "featuresSubtitle": {
+      "type": "text",
+      "required": false,
+      "default": "Powerful features designed to streamline your e-commerce operations and drive growth"
+    },
+    "integrationsTitle": {
+      "type": "text",
+      "required": false,
+      "default": "Connect easily with any service"
+    },
+    "integrationsSubtitle": {
+      "type": "text",
+      "required": false,
+      "default": "Add SMTP seamlessly to your existing stack, and with the tools you already know and love."
+    },
+    "faqTitle": {
+      "type": "text",
+      "required": false,
+      "default": "Frequently Asked Questions"
+    },
+    "faqSubtitle": {
+      "type": "text",
+      "required": false,
+      "default": "Everything you need to know about Storedash"
+    },
     "ctaTitle": {
-      "type": "text"
+      "type": "text",
+      "required": false,
+      "default": "Ready to transform your e-commerce business?"
     },
     "ctaDescription": {
-      "type": "text"
+      "type": "text",
+      "required": false,
+      "default": "Join thousands of merchants who are already using Storedash to grow their online stores."
     },
     "ctaButtonText": {
-      "type": "string"
+      "type": "string",
+      "required": false,
+      "default": "Start your free trial"
     },
     "ctaButtonLink": {
-      "type": "string"
+      "type": "string",
+      "required": false,
+      "default": "/waitlist"
     }
   }
 }
